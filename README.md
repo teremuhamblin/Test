@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Lint](https://github.com/teremuhamblin/Test/actions/workflows/lint.yml/badge.svg)](../../actions)
-[![Release](https://img.shields.io/github/v/release/teremuhamblin/Test)](../../releases)
+[![Lint](https://github.com/teremuhamblin/Samsung-a7y18lte/actions/workflows/lint.yml/badge.svg)](../../actions)
+[![Release](https://img.shields.io/github/v/release/teremuhamblin/Samsung-a7y18lte)](../../releases)
 [![Device](https://img.shields.io/badge/Device-Galaxy%20A7%20%282018%29-green)](https://wiki.lineageos.org/devices/)
 
 # LineageOS
