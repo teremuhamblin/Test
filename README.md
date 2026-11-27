@@ -1,14 +1,22 @@
 <div align="center">
 
-# LineageOS pour Samsung Galaxy A7 (2018)
-### Codename : `a7y18lte` · SoC Exynos 7885
+# LineageOS
+### Pour Samsung Galaxy A7 (2018)
+#### Codename : `a7y18lte` · SoC Exynos 7885
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+---
+
 [![Lint](https://github.com/teremuhamblin/Samsung-a7y18lte/actions/workflows/lint.yml/badge.svg)](https://github.com/teremuhamblin/Samsung-a7y18lte/actions)
 [![Release](https://img.shields.io/github/v/release/teremuhamblin/Samsung-a7y18lte)](https://github.com/teremuhamblin/Samsung-a7y18lte/releases)
-[![Device](https://img.shields.io/badge/Device-Galaxy%20A7%20(2018)-green)](https://wiki.lineageos.org/devices/)
+
+---
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Device](https://img.shields.io/badge/Device-Galaxy%20A7%20(2018)-blue)](https://wiki.lineageos.org/devices/)
 
 </div>
+
+---
 
 Ce dépôt contient l'**arbre device LineageOS** (`lineage_a7y18lte/`) du Samsung Galaxy A7 (2018) : makefiles produit, configuration de la carte (`BoardConfig.mk`) et scripts d'extraction des blobs propriétaires.
 
@@ -125,9 +133,10 @@ Guide détaillé : [docs/BUILDING.md](docs/BUILDING.md).
 ├── docs/
 │   └── BUILDING.md             # Guide de compilation détaillé
 ├── .github/
+│   ├── CONTRIBUTING.md
 │   ├── workflows/lint.yml      # CI : lint Makefile + Markdown
 │   └── ISSUE_TEMPLATE/         # Templates bug / feature
-├── CONTRIBUTING.md
+├── ROADMAP.md
 ├── CHANGELOG.md
 ├── LICENSE                     # Apache 2.0
 └── README.md
