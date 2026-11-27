@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD013 MD033 MD041 -->
+
 <div align="center">
 
 # LineageOS pour Samsung Galaxy A7 (2018)
