@@ -1,18 +1,13 @@
 <div align="center">
 
-# LineageOS
-### Pour Samsung Galaxy A7 (2018)
-#### Codename : `a7y18lte` · SoC Exynos 7885
+# LineageOS pour Samsung Galaxy A7 (2018)
 
----
-
-[![Lint](https://github.com/teremuhamblin/Samsung-a7y18lte/actions/workflows/lint.yml/badge.svg)](https://github.com/teremuhamblin/Samsung-a7y18lte/actions)
-[![Release](https://img.shields.io/github/v/release/teremuhamblin/Samsung-a7y18lte)](https://github.com/teremuhamblin/Samsung-a7y18lte/releases)
-
----
+## Codename : `a7y18lte` · SoC Exynos 7885
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Device](https://img.shields.io/badge/Device-Galaxy%20A7%20(2018)-blue)](https://wiki.lineageos.org/devices/)
+[![Lint](https://github.com/teremuhamblin/Samsung-a7y18lte/actions/workflows/lint.yml/badge.svg)](https://github.com/teremuhamblin/Samsung-a7y18lte/actions)
+[![Release](https://img.shields.io/github/v/release/teremuhamblin/Samsung-a7y18lte)](https://github.com/teremuhamblin/Samsung-a7y18lte/releases)
+[![Device](https://img.shields.io/badge/Device-Galaxy%20A7%20(2018)-green)](https://wiki.lineageos.org/devices/)
 
 </div>
 
