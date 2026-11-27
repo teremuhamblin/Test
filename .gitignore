@@ -1,0 +1,5 @@
+out/
+*.zip
+*.img
+.ccache/
+local_manifests/
