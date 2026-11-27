@@ -3,11 +3,12 @@
 [![Release](https://img.shields.io/github/v/release/teremuhamblin/Test)](../../releases)
 [![Device](https://img.shields.io/badge/Device-Galaxy%20A7%20%282018%29-green)](https://wiki.lineageos.org/devices/)
 
-# LineageOS — Samsung Galaxy A7 2018 (`a7y18lte`)
+# LineageOS
+### — Samsung Galaxy A7 2018 **(`a7y18lte`)**
 
-Dépôt professionnel du fichier produit **LineageOS** pour le Samsung Galaxy A7
-(2018), codename `a7y18lte`. Il contient le fichier `lineage_a7y18lte.mk`
-nécessaire à la compilation d'une ROM LineageOS pour cet appareil.
+Dépôt professionnel du fichier produit **LineageOS** pour le *Samsung Galaxy A7
+(2018)*, codename `a7y18lte`.
+- Il contient le fichier : `lineage_a7y18lte.mk` nécessaire à la compilation d'une *ROM LineageOS* pour cet appareil.
 
 ## ✨ Fonctionnalités
 
