@@ -6,7 +6,7 @@
 # LineageOS
 ### — Samsung Galaxy A7 2018 **(`a7y18lte`)**
 
-Dépôt professionnel du fichier produit **LineageOS** pour le *Samsung Galaxy A7
+Dépôt du fichier produit **LineageOS** pour le *Samsung Galaxy A7
 (2018)*, codename `a7y18lte`.
 - Il contient le fichier : `lineage_a7y18lte.mk` nécessaire à la compilation d'une *ROM LineageOS* pour cet appareil.
 
