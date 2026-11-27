@@ -5,16 +5,34 @@ on:
     branches: [main]
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
-  lint:
+  markdown:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Check Makefile syntax
-        run: |
-          sudo apt-get install -y make
-          make -n -f lineage_a7y18lte/lineage_a7y18lte.mk 2>/dev/null ||             echo "Syntax check skipped (Android build env required)"
+      - uses: actions/checkout@v5
       - name: Markdown lint
         uses: DavidAnson/markdownlint-cli2-action@v20
         with:
           globs: "**/*.md"
+
+  shell:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: ShellCheck
+        run: shellcheck lineage_a7y18lte/*.sh
+
+  tree:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Vérifier les fichiers de l'arbre device
+        run: |
+          for f in Android.bp Android.mk AndroidProducts.mk BoardConfig.mk \
+                   device.mk lineage_a7y18lte.mk extract-files.sh \
+                   setup-makefiles.sh; do
+            test -f "lineage_a7y18lte/$f" || { echo "Manquant : $f"; exit 1; }
+          done
