@@ -1,5 +1,1 @@
-out/
-*.zip
-*.img
-.ccache/
-local_manifests/
+out/\n*.zip\n*.img\n.ccache/\nlocal_manifests/\n
